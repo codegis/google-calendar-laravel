@@ -2,7 +2,7 @@
     "name": "codegis/google-calendar-laravel",
     "description": "Manage events on a Google Calendar",
     "keywords": [
-        "mister.diaz",
+        "codegis",
         "calendar",
         "google",
         "event",
@@ -15,7 +15,7 @@
         {
             "name": "Luis Diaz",
             "email": "codegis@gmail.com",
-            "homepage": "https://codegis.github.io",
+            "homepage": "https://codegis.co",
             "role": "Developer"
         }
     ],
