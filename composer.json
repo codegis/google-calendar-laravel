@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "codegis\\GoogleCalendar\\": "src"
+            "Codegis\\GoogleCalendar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "codegis\\GoogleCalendar\\Test\\": "tests"
+            "Codegis\\GoogleCalendar\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "codegis\\GoogleCalendar\\GoogleCalendarServiceProvider"
+                "Codegis\\GoogleCalendar\\GoogleCalendarServiceProvider"
             ],
             "aliases": {
-                "GoogleCalendar": "codegis\\GoogleCalendar\\GoogleCalendarFacade"
+                "GoogleCalendar": "Codegis\\GoogleCalendar\\GoogleCalendarFacade"
             }
         }
     }
