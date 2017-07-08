@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\GoogleCalendar;
+namespace Ldiazjaramillo\GoogleCalendar;
 
 use Illuminate\Support\ServiceProvider;
 

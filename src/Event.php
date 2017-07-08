@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\GoogleCalendar;
+namespace Ldiazjaramillo\GoogleCalendar;
 
 use DateTime;
 use Carbon\Carbon;
@@ -129,7 +129,7 @@ class Event
      * @param string $eventId
      * @param string $calendarId
      *
-     * @return \Spatie\GoogleCalendar\Event
+     * @return \Ldiazjaramillo\GoogleCalendar\Event
      */
     public static function find($eventId, $calendarId = null): Event
     {
@@ -164,7 +164,7 @@ class Event
     /**
      * @param string $calendarId
      *
-     * @return \Spatie\GoogleCalendar\GoogleCalendar
+     * @return \Ldiazjaramillo\GoogleCalendar\GoogleCalendar
      */
     protected static function getGoogleCalendar($calendarId = null)
     {

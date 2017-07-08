@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\GoogleCalendar\Test\Integration;
+namespace Ldiazjaramillo\GoogleCalendar\Test\Integration;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\GoogleCalendar\GoogleCalendarServiceProvider;
+use Ldiazjaramillo\GoogleCalendar\GoogleCalendarServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
