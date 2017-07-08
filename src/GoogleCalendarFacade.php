@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\GoogleCalendar;
+namespace Ldiazjaramillo\GoogleCalendar;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Spatie\GoogleCalendar\GoogleCalendar
+ * @see \Ldiazjaramillo\GoogleCalendar\GoogleCalendar
  */
 class GoogleCalendarFacade extends Facade
 {

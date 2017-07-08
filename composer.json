@@ -1,27 +1,27 @@
 {
-    "name": "spatie/laravel-google-calendar",
+    "name": "ldiazjaramillo/laravel-google-calendar",
     "description": "Manage events on a Google Calendar",
     "keywords": [
-        "spatie",
+        "mister.diaz",
         "calendar",
         "google",
         "event",
         "schedule",
         "laravel-google-calendar"
     ],
-    "homepage": "https://github.com/spatie/laravel-google-calendar",
+    "homepage": "https://github.com/ldiazjaramillo/laravel-google-calendar",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Luis Diaz",
+            "email": "ldiazjaramillo@gmail.com",
+            "homepage": "https://ldiazjaramillo.github.io",
             "role": "Developer"
         }
     ],
     "require": {
         "php" : "^7.0",
-        "google/apiclient": "^1.1.7",
+        "google/apiclient": "^2.0",
         "illuminate/support": "^5.2.8",
         "nesbot/carbon": "^1.21"
     },
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\GoogleCalendar\\": "src"
+            "ldiazjaramillo\\GoogleCalendar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\GoogleCalendar\\Test\\": "tests"
+            "ldiazjaramillo\\GoogleCalendar\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\GoogleCalendar\\GoogleCalendarServiceProvider"
+                "ldiazjaramillo\\GoogleCalendar\\GoogleCalendarServiceProvider"
             ],
             "aliases": {
-                "GoogleCalendar": "Spatie\\GoogleCalendar\\GoogleCalendarFacade"
+                "GoogleCalendar": "ldiazjaramillo\\GoogleCalendar\\GoogleCalendarFacade"
             }
         }
     }

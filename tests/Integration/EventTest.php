@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\GoogleCalendar\Test;
+namespace Ldiazjaramillo\GoogleCalendar\Test;
 
 use Mockery;
 use DateTime;
 use Carbon\Carbon;
-use Spatie\GoogleCalendar\Event;
-use Spatie\GoogleCalendar\Test\Integration\TestCase;
+use Ldiazjaramillo\GoogleCalendar\Event;
+use Ldiazjaramillo\GoogleCalendar\Test\Integration\TestCase;
 
 class EventTest extends TestCase
 {
-    /** @var \Spatie\GoogleCalendar\Event|Mockery\Mock */
+    /** @var \Ldiazjaramillo\GoogleCalendar\Event|Mockery\Mock */
     protected $event;
 
     public function setUp()
