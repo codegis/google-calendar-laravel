@@ -1,5 +1,5 @@
 {
-    "name": "ldiazjaramillo/google-calendar-laravel",
+    "name": "codegis/google-calendar-laravel",
     "description": "Manage events on a Google Calendar",
     "keywords": [
         "mister.diaz",
@@ -9,13 +9,13 @@
         "schedule",
         "google-calendar-laravel"
     ],
-    "homepage": "https://github.com/ldiazjaramillo/google-calendar-laravel",
+    "homepage": "https://github.com/codegis/google-calendar-laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "Luis Diaz",
-            "email": "ldiazjaramillo@gmail.com",
-            "homepage": "https://ldiazjaramillo.github.io",
+            "email": "codegis@gmail.com",
+            "homepage": "https://codegis.github.io",
             "role": "Developer"
         }
     ],
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ldiazjaramillo\\GoogleCalendar\\": "src"
+            "codegis\\GoogleCalendar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ldiazjaramillo\\GoogleCalendar\\Test\\": "tests"
+            "codegis\\GoogleCalendar\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ldiazjaramillo\\GoogleCalendar\\GoogleCalendarServiceProvider"
+                "codegis\\GoogleCalendar\\GoogleCalendarServiceProvider"
             ],
             "aliases": {
-                "GoogleCalendar": "ldiazjaramillo\\GoogleCalendar\\GoogleCalendarFacade"
+                "GoogleCalendar": "codegis\\GoogleCalendar\\GoogleCalendarFacade"
             }
         }
     }

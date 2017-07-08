@@ -1,6 +1,6 @@
 <?php
 
-namespace Ldiazjaramillo\GoogleCalendar;
+namespace Codegis\GoogleCalendar;
 
 use Google_Client;
 use Google_Service_Calendar;

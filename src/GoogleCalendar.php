@@ -1,6 +1,6 @@
 <?php
 
-namespace Ldiazjaramillo\GoogleCalendar;
+namespace Codegis\GoogleCalendar;
 
 use DateTime;
 use Carbon\Carbon;
@@ -78,7 +78,7 @@ class GoogleCalendar
     /**
      * Insert an event.
      *
-     * @param \Ldiazjaramillo\GoogleCalendar\Event|Google_Service_Calendar_Event $event
+     * @param \Codegis\GoogleCalendar\Event|Google_Service_Calendar_Event $event
      *
      * @link https://developers.google.com/google-apps/calendar/v3/reference/events/insert
      *
@@ -94,7 +94,7 @@ class GoogleCalendar
     }
 
     /**
-     * @param \Ldiazjaramillo\GoogleCalendar\Event|Google_Service_Calendar_Event $event
+     * @param \Codegis\GoogleCalendar\Event|Google_Service_Calendar_Event $event
      *
      * @return \Google_Service_Calendar_Event
      */
@@ -108,7 +108,7 @@ class GoogleCalendar
     }
 
     /**
-     * @param string|\Ldiazjaramillo\GoogleCalendar\Event $eventId
+     * @param string|\Codegis\GoogleCalendar\Event $eventId
      */
     public function deleteEvent($eventId)
     {

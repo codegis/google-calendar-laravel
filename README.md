@@ -11,7 +11,7 @@
 This package makes working with a Google Calendar a breeze. Once it has been set up you can do these things:
 
 ```php
-use Ldiazjaramillo\GoogleCalendar\Event;
+use Codegis\GoogleCalendar\Event;
 
 //create a new event
 $event = new Event;
@@ -42,13 +42,13 @@ Event::create([
 $event->delete();
 ```
 
-Ldiazjaramillo is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+Codegis is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
 
 ## Postcardware
 
 You're free to use this package (it's [MIT-licensed](LICENSE.md)), but if it makes it to your production environment you are required to send us a postcard from your hometown, mentioning which of our package(s) you are using.
 
-Our address is: Ldiazjaramillo, Samberstraat 69D, 2060 Antwerp, Belgium.
+Our address is: Codegis, Samberstraat 69D, 2060 Antwerp, Belgium.
 
 The best postcards will get published on the open source page on our website.
 
@@ -65,16 +65,16 @@ Next up the service provider must be registered:
 ```php
 'providers' => [
     ...
-    Ldiazjaramillo\GoogleCalendar\GoogleCalendarServiceProvider::class,
+    Codegis\GoogleCalendar\GoogleCalendarServiceProvider::class,
 ];
 ```
 
-Optionally the  `Ldiazjaramillo\GoogleCalendar\GoogleCalendarFacade` must be registered:
+Optionally the  `Codegis\GoogleCalendar\GoogleCalendarFacade` must be registered:
 
 ```php
 'aliases' => [
 	...
-    'GoogleCalendar' => Ldiazjaramillo\GoogleCalendar\GoogleCalendarFacade::class,
+    'GoogleCalendar' => Codegis\GoogleCalendar\GoogleCalendarFacade::class,
     ...
 ]
 ```
@@ -82,7 +82,7 @@ Optionally the  `Ldiazjaramillo\GoogleCalendar\GoogleCalendarFacade` must be reg
 You must publish the configuration with this command:
 
 ```bash
-php artisan vendor:publish --provider="Ldiazjaramillo\GoogleCalendar\GoogleCalendarServiceProvider"
+php artisan vendor:publish --provider="Codegis\GoogleCalendar\GoogleCalendarServiceProvider"
 ```
 
 This will publish file called `laravel-google-calendar.php` in your config-directory with this contents:
@@ -110,7 +110,7 @@ Read [this blogpost](https://murze.be/2016/05/how-to-setup-and-use-the-google-ca
 
 ### Getting events
 
-You can fetch all events by simply calling `Event::get();` this will return all events of the coming year. An event comes in the form of a `Ldiazjaramillo\GoogleCalendar\Event` object.
+You can fetch all events by simply calling `Event::get();` this will return all events of the coming year. An event comes in the form of a `Codegis\GoogleCalendar\Event` object.
 
 The full signature of the function is:
 
@@ -143,7 +143,7 @@ $event[0]->endDateTime;
 
 ### Creating an event
 
-You can just new up a `Ldiazjaramillo\GoogleCalendar\Event`-object
+You can just new up a `Codegis\GoogleCalendar\Event`-object
 
 ```php
 $event = new Event;
@@ -179,7 +179,7 @@ $event->save();
 
 ### Getting a single event
 
-Google assigns a unique id to every single event. You can get this id by getting events using the `get` method and getting the `id` property on a `Ldiazjaramillo\GoogleCalendar\Event`-object:
+Google assigns a unique id to every single event. You can get this id by getting events using the `get` method and getting the `id` property on a `Codegis\GoogleCalendar\Event`-object:
 ```php
 // get the id of the first upcoming event in the calendar.
 $calendarId = Event::get()->first()->id;
@@ -238,8 +238,8 @@ If you discover any security related issues, please email freek@spatie.be instea
 - [Freek Van der Herten](https://github.com/freekmurze)
 - [All Contributors](../../contributors)
 
-## About Ldiazjaramillo
-Ldiazjaramillo is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+## About Codegis
+Codegis is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
 
 ## License
 

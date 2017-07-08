@@ -1,10 +1,10 @@
 <?php
 
-namespace Ldiazjaramillo\GoogleCalendar\Test\Unit;
+namespace Codegis\GoogleCalendar\Test\Unit;
 
 use Mockery;
 use Google_Service_Calendar;
-use Ldiazjaramillo\GoogleCalendar\GoogleCalendar;
+use Codegis\GoogleCalendar\GoogleCalendar;
 
 class GoogleCalendarTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,7 +14,7 @@ class GoogleCalendarTest extends \PHPUnit_Framework_TestCase
     /** @var string */
     protected $calendarId;
 
-    /** @var \Ldiazjaramillo\GoogleCalendar\GoogleCalendar */
+    /** @var \Codegis\GoogleCalendar\GoogleCalendar */
     protected $googleCalendar;
 
     public function setUp()

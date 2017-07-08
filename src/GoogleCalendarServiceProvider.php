@@ -1,6 +1,6 @@
 <?php
 
-namespace Ldiazjaramillo\GoogleCalendar;
+namespace Codegis\GoogleCalendar;
 
 use Illuminate\Support\ServiceProvider;
 

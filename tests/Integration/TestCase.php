@@ -1,9 +1,9 @@
 <?php
 
-namespace Ldiazjaramillo\GoogleCalendar\Test\Integration;
+namespace Codegis\GoogleCalendar\Test\Integration;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ldiazjaramillo\GoogleCalendar\GoogleCalendarServiceProvider;
+use Codegis\GoogleCalendar\GoogleCalendarServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

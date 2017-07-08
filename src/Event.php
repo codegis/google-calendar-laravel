@@ -1,6 +1,6 @@
 <?php
 
-namespace Ldiazjaramillo\GoogleCalendar;
+namespace Codegis\GoogleCalendar;
 
 use DateTime;
 use Carbon\Carbon;
@@ -129,7 +129,7 @@ class Event
      * @param string $eventId
      * @param string $calendarId
      *
-     * @return \Ldiazjaramillo\GoogleCalendar\Event
+     * @return \Codegis\GoogleCalendar\Event
      */
     public static function find($eventId, $calendarId = null): Event
     {
@@ -164,7 +164,7 @@ class Event
     /**
      * @param string $calendarId
      *
-     * @return \Ldiazjaramillo\GoogleCalendar\GoogleCalendar
+     * @return \Codegis\GoogleCalendar\GoogleCalendar
      */
     protected static function getGoogleCalendar($calendarId = null)
     {
